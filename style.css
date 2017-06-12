@@ -1,0 +1,103 @@
+* {
+  margin: 0px; /* starts from scratch */
+  padding: 0px; /* starts from scratch */
+  /*background-color: AliceBlue;*/
+  font-family: Helvetica;
+  border: 0px solid rgba(0, 0, 0, 0.0); /* remove later */
+  box-sizing: border-box;
+}
+
+#menubar {
+  position: fixed;
+  width: 100%;
+  height: 20px;
+  z-index: 1000;
+}
+
+.navbar {
+  text-align: right;
+  word-spacing: 0.25em;
+}
+
+a:link, a:visited {
+  background-color: rgba(0, 0, 0, 0);
+  color: black;
+  font-family: Helvetica;
+  text-decoration: none;
+}
+
+a:hover {
+  color: green;
+  background: pink;
+}
+
+nav {
+  background-color: Ivory;
+  font-size: 25px
+}
+
+li {
+  display: inline-block;
+}
+
+h1 {
+  font-family: Georgia;
+  color: black;
+  text-align: center;
+  padding: 70px;
+  height: 275px;
+  width: 100%;
+  background: url("mountains.jpg") no-repeat center bottom;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+}
+
+h2 {
+  font-family: Helvetica;
+  color: rgba(0, 150, 40, 1);
+  padding: 10px 5px;
+}
+.centered {
+  text-align: center;
+}
+
+.totheright {
+  text-align: right;
+}
+
+.icons {
+  font-size: 100px;
+  text-align: center;
+}
+
+.aboutme {
+  background-color: AliceBlue;
+  padding: 10px 5px;
+}
+
+.skills {
+  background-color: lightgray;
+  padding: 10px 5px;
+}
+
+.creations {
+  background-color: lightblue;
+  padding: 10px 5px;
+}
+
+
+
+.contact {
+  background-color: MistyRose;
+  padding: 10px 5px;
+}
+
+:target:before {
+content:"";
+display:block;
+height:20px; /* fixed header height*/
+margin:-20px, 0, 0; /* negative fixed header height */
+}
+
+  
